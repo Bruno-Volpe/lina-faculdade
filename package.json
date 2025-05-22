@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-	"test": "jest"
-  },
+    "test": "jest",
+"start": "node server.js"  
+},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Bruno-Volpe/lina-faculdade.git"
@@ -19,5 +20,8 @@
   "description": "",
   "devDependencies": {
     "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
   }
 }
